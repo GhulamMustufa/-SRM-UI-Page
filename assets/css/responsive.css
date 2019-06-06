@@ -1,0 +1,171 @@
+@media only screen and (max-width: 1199px) {
+ .banner_content h1{font-size: 50px}
+ .domains_tlds li{padding: 0 15px}
+ .get_started_content{font-size: 40px}
+ .btn_get_started{padding: 15px 50px}
+}
+
+@media only screen and (max-width: 991px){
+ .bg_home_banner{height: 500px}
+ .banner_content_box{height: 400px}
+ .banner_content h1 small{font-size: 26px}
+ .banner_content h1{font-size: 36px; margin-bottom: 15px !important;}
+ .banner_content p{font-size: 16px; line-height: 22px; margin-bottom: 5px !important;}
+ .banner_price{font-size: 26px}
+ .btn_banner{font-size: 14px; padding: 7px 30px}
+ .padding_bottom_100{padding-bottom: 75px}
+ .padding_top_100{padding-top: 75px}
+ .search_domain_section h2, .why_choose_section h2, .testimonial_section h2, .one_click_install_section h2, .company_profile_section h2, .support_for_you_section h2, .plan_price_section h2{font-size: 42px}
+ .plan_box{border-radius: 10%}
+ .search_box{width: 100%}
+ .domains_tlds li span{font-size: 14px}
+ .domains_tlds li{padding: 0 10px}
+ .why_choose_heading{font-size: 16px}
+ .why_choose_box p br{display: none}
+ .support_img:before{height: 403px; left: -60px; top: -48px}
+ .support_heading{font-size: 42px !important;}
+ .get_started_content{text-align: center; float: none !important;}
+ .btn_get_started{float: none !important;}
+ .get_started_section{text-align: center}
+}
+@media only screen and (max-width: 767px) {
+ .banner_server_img{display: none}
+ .padding_top_100{padding-top: 50px}
+ .padding_bottom_100{padding-bottom: 50px}
+ .search_domain_section h2, .why_choose_section h2, .testimonial_section h2, .one_click_install_section h2, .company_profile_section h2, .support_for_you_section h2, .plan_price_section h2{font-size: 36px}
+ label{display: none}
+ .small-box-outer{
+  margin: 0 0 20px;
+ }
+ .small-box-outer:last-child{
+  margin: 0;
+ }
+ .bg_support{text-align: center;}
+ .support_img{
+  display: none;
+ }
+ .get_started_content{
+  font-size: 30px;
+  line-height: 34px;
+  margin: 0 0 5px;
+ }
+ .support_heading{
+  font-size: 30px !important;
+  line-height: 34px;
+ }
+
+ .banner_content_box{
+  height: auto;
+  text-align: center;
+  padding: 50px 2%;
+ }
+ .bg_home_banner{
+  height: auto;
+ }
+ .search_area{
+  margin-bottom: 30px;
+ }
+ .domains_tlds li{
+  margin-top: 22px;
+ }
+ .sitemap-outer{
+  width: 50%;
+  float: left;
+ }
+ .sitemap-outer .sitemap:first-child{
+  margin-bottom: 30px;
+ }
+ .navbar-collapse{
+  position: absolute;
+  right: 0;
+  width: 250px;
+  top: 95px;
+  background:#218c74;
+  z-index: 5;
+ }
+ .inner_navbar .inner_navbar_list>li>a{
+  margin: 0;
+  padding: 15px 2%;
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+ }
+ .inner_navbar .inner_navbar_list>li:last-child>a{
+  border-bottom: none;
+ }
+ .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border: none;
+  padding: 0;
+  margin: 0;
+ }
+ .navbar-nav{
+  margin: 0;
+ }
+ .navbar-default .navbar-toggle{
+  background: #ff7c3a;
+  border-radius: 0px;
+  top: 22px;
+  margin: 0;
+  border-color: #ff7c3a;
+ }
+ .navbar-default .navbar-toggle .icon-bar{
+  background-color: #fff;
+ }
+ .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color: #218c74;
+  border-color: #218c74;
+ }
+ .navbar{
+  padding: 8px 2%;
+  min-height: auto;
+ }
+}
+@media screen and (max-width: 560px) {
+ .search_area{
+  height: auto;
+  text-align: center;
+  margin: 0 0 10px;
+}
+ .search_box .text_field{
+  padding: 15px 20px;
+ }
+ .search_btn{
+  top: 0;
+  left: 0;
+  right: 0;
+  float: none !important;
+  position: relative;
+  margin: 0 auto;
+ }
+.domains_tlds{
+ margin-top: 20px;
+}
+ .search_domain_section h2, .why_choose_section h2, .testimonial_section h2, .one_click_install_section h2, .company_profile_section h2, .support_for_you_section h2, .plan_price_section h2{
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 40px;
+ }
+ .margin_top_60{
+  margin-top: 30px;
+ }
+ .get_started_section{
+  padding: 30px 2%;
+ }
+ .get_started_content{
+  font-size: 24px;
+  line-height: 26px;
+ }
+ .sitemap-outer {
+  width: 100%;
+ }
+ .sitemap-outer:last-child{
+  margin-bottom: 0 !important;
+ }
+ .sitemap-outer .sitemap{
+  margin: 0 0 20px !important;
+ }
+ .sitemap-outer:last-child .sitemap:last-child{
+  margin: 0 !important;
+ }
+ .border_bottom:before, .bottom_line:before{
+  width: 100%;
+ }
+}
